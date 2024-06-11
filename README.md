@@ -2,6 +2,8 @@ The Bit stream analyzer is a standalone application designed to process ADS-B bi
 ADS-B (Automatic Dependent Surveillance-Broadcast) is a surveillance technology used in aviation, while ADS refers to certain types of data transmissions in the aviation context.
 In the future, a C version of the decoder will be incorporated into the application to provide additional functionality and flexibility. Updates on this development will be provided as progress is made.
 
+To run the code, ensure that the Raspberry Pi is set up with the dongle and antenna. Then, execute the following command:
+rtl_sdr -f 1090e6 -s 2000000 -g 48 - | ./bit_stream_analyzer
 
 adsb_process.c is to be used with dump 1090 on port 30005 (beast data format)
 Will need to install dump1090-fa on raspberry pi
