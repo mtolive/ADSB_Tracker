@@ -6,7 +6,6 @@
 #define BUFFER_SIZE 16 * 163834
 
 void process_adsb_data(uint8_t *buffer, int length){
-  // write function to process raw ADS-B data
   // Implement ADS-B decoding logic
   printf("Recieved data chunk of size %d\n", length);
   for(int i = 0; i < length; i++){
@@ -30,4 +29,3 @@ int main(){
 
   return EXIT_SUCCESS;
 }
-
