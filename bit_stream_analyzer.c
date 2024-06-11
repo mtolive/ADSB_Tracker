@@ -27,13 +27,11 @@ void analyze(uint8_t *buffer, int len){
       return;
    }
 
-   // Extract Downlink Format (DF) from the first byte
+   // extract downlink format (DF) from the first byte
    uint8_t df = (buffer[0] >> 3) & 0x1F; // first 5 bits
     
-   // check that DF is 17
    if(df == 17){
    
-      // print hex value
       for(int i = 0; i < FRAME_SIZE; i++){
          printf("%02X", buffer[i]);
       }
