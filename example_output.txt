@@ -1,13 +1,5 @@
-Downlink Format: 17 
-Protocol: Mode-S Extended Squitter (ADS-B) 
-Type: Airborne position (with barometric altitude) 
-CPR format: Odd 
-CPR Latitude: 0.82354736328125 
-CPR Longitude: 0.208526611328125 
-Altitude: -1 feet
 Message: 897E888287827E7E84847C828085 
 ICAO address: 7E8882 
-
 Downlink Format: 17 
 Protocol: Mode-S Extended Squitter (ADS-B) 
 Type: Airborne position (with barometric altitude) 
@@ -15,9 +7,9 @@ CPR format: Odd
 CPR Latitude: 0.6235504150390625 
 CPR Longitude: 0.258758544921875 
 Altitude: 66200 feet
+
 Message: 8FA6742EA1C7784B84A06A6A9D92 
 ICAO address: A6742E 
-
 Downlink Format: 17 
 Protocol: Mode-S Extended Squitter (ADS-B) 
 Type: Airborne position (with GNSS altitude) 
@@ -25,9 +17,9 @@ CPR format: Even
 CPR Latitude: 0.0737457275390625 
 CPR Longitude: 0.3133087158203125 
 Altitude: 10469.16044 feet
+
 Message: 88807181777A7A848287857B7C83 
 ICAO address: 807181 
-
 Downlink Format: 17 
 Protocol: Mode-S Extended Squitter (ADS-B) 
 Type: Airborne position (with barometric altitude) 
@@ -35,6 +27,5 @@ CPR format: Even
 CPR Latitude: 0.6294021606445312 
 CPR Longitude: 0.26468658447265625 
 Altitude: 81900 feet
-Message: 8886778280857D7E807C7B857C84 
-ICAO address: 867782 
-             
+
+            
