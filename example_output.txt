@@ -1,3 +1,19 @@
+// rtl_sdr example output:
+
+f�������[p[������kEy{{��o�w�j��}gy�w�inq�~t�{�uzx���uv{{~����|�~�~��y}
+��zx�vv�ot��yyv{�w�����p�z��{t|�{woz{���x�t|ty}p���p{v�v��y�y�������z�
+|��y�u�p�sv{n�|�|�}y�u�~s||{����q������z|x}��|~lv����x����}�~�l�y���z
+�r�sv��u�����xt����~{�|�x���y�xw~~��|��s}����{�~{������rz|�
+
+// bit_stream_analyzer example output:
+
+8A21FF52A8FF0084A939AFF29189 
+8C6D8684857B7A87747B83787285 
+88817A80667F849083798C7D8D7F 
+8D6E8E738088876B7D887A7F8078
+
+// adsb_decoder.py example output:
+
 Message: 897E888287827E7E84847C828085 
 ICAO address: 7E8882 
 Downlink Format: 17 
