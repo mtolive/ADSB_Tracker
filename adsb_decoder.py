@@ -4,7 +4,7 @@ import sys
 def process_hex_line(hex_line):
     hex_line = hex_line.strip()
     if len(hex_line) != 28:
-        print("msg length incorrect: " + str(len(hex_line)))
+        print(f"msg length incorrect: {str(len(hex_line))}")
         return None
     try:
         return pms.tell(hex_line)
@@ -22,4 +22,5 @@ for line in sys.stdin:
     result = process_hex_line(line)
     if result is not None:
         print(result)
-        print()  # Print a blank line for separation
+    
+        
